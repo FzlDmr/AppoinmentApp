@@ -1,0 +1,22 @@
+/*
+Proje: Randevu olusturma uygulamasi gelistiriniz
+
+       1-Ana menude kullaniciya randevu alma veya goruntulemek icin iki secenek sunulur.
+       2-Randevu alma/olusturma
+              -Kullaniciya mevcut doktorlar ve uygun olduklari tarihler gosterilir.
+              -Kullanicidan no ile doktor secmesi istenir.
+              -Secilen doktorun takvimi gosterilir.
+              -Randevu alinmak istenen tarihin secilmesi istenir.
+              -en yakin 7 gunluk takvim dolmussa daha sonra denenmesi istenir
+              -Gecerli bir tarih secilmisse randevu olusturulur ve bu tarih doktorun takviminden silinir
+       3-Randevu goruntuleme;
+              -Kullaniciya randevu no sorulur,
+               randevu listesinde girilen no ile eslesen randevu bilgileri yazdirilir.
+       4-Doktor:
+              -id, isim, brans, takvim
+              -takvim: sistemin kullandigi gunden itibaren 1 gun sonra baslamak uzere
+                       7 gunluk uygun randevu tarihleri
+       5-Randevu:
+              -id: otomatik uretilsin
+              -hasta adi, Doktor, randevu tarihi
+       6- Sistemde doktorlar kayitli olsun.
